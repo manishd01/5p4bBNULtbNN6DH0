@@ -13,7 +13,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="/BMI_Cal" component={BMICalculations} />
+          <Route path="/BMI_Cal" element={<BMICalculations />} />
         </Routes>
       </Router>
       <div className="BMICalculations">
