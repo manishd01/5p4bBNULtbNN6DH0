@@ -49,9 +49,6 @@ function LandingPage() {
       <div className="downloadLink">
         <button onClick={handling_details}> Click Here to Download </button>
       </div>
-      <div className="BMICalculations">
-        <a href="#13"> Click Here to See BMI Calculations </a>
-      </div>
     </>
   );
 }
