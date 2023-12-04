@@ -2,7 +2,7 @@ import "./App.css";
 import LandingPage from "./components/LandingPage";
 import BMICalculations from "./components/BMICalculations";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
-
+import UploadResume from "./components/UploadResume";
 function App() {
   return (
     <>
@@ -14,10 +14,14 @@ function App() {
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/BMI_Cal" element={<BMICalculations />} />
+          <Route path="/upload_resume" element={<UploadResume />} />
         </Routes>
       </Router>
       <div className="BMICalculations">
         <a href="/BMI_Cal"> Click Here to See BMI Calculations </a>
+      </div>
+      <div className="UploadResume">
+        <a href="/upload_resume"> Click here to Upload resume</a>
       </div>
       {/* <LandingPage></LandingPage> */}
     </>
