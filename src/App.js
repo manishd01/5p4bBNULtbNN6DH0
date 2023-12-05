@@ -3,11 +3,12 @@ import LandingPage from "./components/LandingPage";
 import BMICalculations from "./components/BMICalculations";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import UploadResume from "./components/UploadResume";
+import MY_PUBLIC_URL from "./config";
 function App() {
   return (
     <>
       <h1> WEBAPP REACT</h1>
-      <Router>
+      <Router basename={MY_PUBLIC_URL}>
         {/* <Link to="/BMI_Cal">BMI</Link> */}
         <Link to="/">Resume Maker</Link>
 

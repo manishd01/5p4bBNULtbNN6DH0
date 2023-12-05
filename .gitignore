@@ -1,5 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
+# ///// "predeploy":"npm run build",
+# //"deploy":"gh-pages -d build"
+# // "homepage": "http://fireclint.github.io/5p4bBNULtbNN6DH0",
+# //
 # dependencies
 /node_modules
 /.pnp
